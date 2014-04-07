@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GetRecipes</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_first_page">FirstPageActivity</string>
+    <string name="title_activity_search_page">SearchPageActivity</string>
+    <string name="search_hint">Input the key word</string>
+    <string name="search_result">Search result</string>
+    <string name="search_button">search</string>
+    <string name="title_activity_search_result">SearchResultActivity</string>
+
+</resources>

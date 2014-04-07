@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/search_result_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="80dp" >
+
+    <ImageView
+        android:id="@+id/search_result_item_recipe_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/search_result_item_recipe_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="8dp"
+        android:layout_toRightOf="@id/search_result_item_recipe_image"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="Recipes Name"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/search_result_item_recipe_comefrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="8dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="BigOven"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>
